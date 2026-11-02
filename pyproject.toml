@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "nhfrbrc-gpuops_jd499"
+name = "nhfrbrc-moe_route_imbalance_length_profile"
 version = "0.1.0"
 description = "按段落统计GPU 集群运维工程师·MoE 路由的负载不均相关的长度分布，标出过长、过短与重复表达的部分"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://nhfrbrc.github.io"
-Repository = "https://github.com/nhfrbrc/gpuops_jd499"
-Issues = "https://github.com/nhfrbrc/gpuops_jd499/issues"
+Repository = "https://github.com/nhfrbrc/moe_route_imbalance_length_profile"
+Issues = "https://github.com/nhfrbrc/moe_route_imbalance_length_profile/issues"
 
 [project.scripts]
-gpuops_jd499 = "gpuops_jd499:main"
+moe_route_imbalance_length_profile = "moe_route_imbalance_length_profile:main"
 
 [tool.setuptools]
-py-modules = ["gpuops_jd499"]
+py-modules = ["moe_route_imbalance_length_profile"]
